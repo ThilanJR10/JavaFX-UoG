@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="739.0" layoutY="743.0" mnemonicParsing="false" text="Submit">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Label layoutX="259.0" layoutY="26.0" text="University of Gugsi">
+         <font>
+            <Font name="System Bold Italic" size="43.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.883495145631068" endY="1.0" startX="0.8689320388349514" startY="0.18446601941747573">
+               <stops>
+                  <Stop color="#72b202" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="42.0" layoutY="119.0" text="Resit Students">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="209.0" text="Module#1" />
+      <Label layoutX="49.0" layoutY="285.0" text="Module#2" />
+      <Label layoutX="49.0" layoutY="363.0" text="Module#3" />
+      <TextField layoutX="49.0" layoutY="230.0" promptText="Enter ICT01 Marks" />
+      <TextField layoutX="296.0" layoutY="230.0" promptText="Enter ICT02 Marks" />
+      <TextField layoutX="49.0" layoutY="306.0" promptText="Enter ICT01 Marks" />
+      <TextField layoutX="296.0" layoutY="306.0" promptText="Enter ICT02 Marks" />
+      <TextField layoutX="49.0" layoutY="384.0" promptText="Enter ICT01 Marks" />
+      <TextField layoutX="296.0" layoutY="384.0" promptText="Enter ICT02 Marks" />
+      <Label layoutX="568.0" layoutY="230.0" text="Label" />
+      <Label layoutX="704.0" layoutY="230.0" text="Label" />
+      <Label layoutX="568.0" layoutY="311.0" text="Label" />
+      <Label layoutX="704.0" layoutY="311.0" text="Label" />
+      <Label layoutX="568.0" layoutY="389.0" text="Label" />
+      <Label layoutX="704.0" layoutY="389.0" text="Label" />
+   </children>
+</AnchorPane>

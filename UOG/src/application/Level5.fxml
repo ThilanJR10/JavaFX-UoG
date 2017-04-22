@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Level5Controller">
+   <children>
+      <Button fx:id="toLevel6" layoutX="671.0" layoutY="506.0" mnemonicParsing="false" onAction="#lvl6ButtonClicked" prefHeight="53.0" prefWidth="187.0" text=" Level6">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitlevel5" layoutX="671.0" layoutY="371.0" mnemonicParsing="false" onAction="#backTogetStudentSceen1" prefHeight="53.0" prefWidth="187.0" text="Exit from Level5" underline="true">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="225.0" layoutY="44.0" prefHeight="67.0" prefWidth="446.0" text="University Of Gugsi">
+         <font>
+            <Font size="42.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7233009708737864" endY="1.0" startX="0.7233009708737864" startY="0.06310679611650485">
+               <stops>
+                  <Stop color="#cf3e3e" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="29.0" layoutY="146.0" prefHeight="67.0" prefWidth="196.0" text="Level5">
+         <font>
+            <Font name="Britannic Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="262.0" text="Module#1" />
+      <Label layoutX="29.0" layoutY="330.0" text="Module#2" />
+      <Label layoutX="29.0" layoutY="417.0" text="Module#3" />
+      <Label layoutX="29.0" layoutY="511.0" text="Module#4" />
+      <Label layoutX="29.0" layoutY="618.0" text="Module#5" />
+      <Label layoutX="29.0" layoutY="731.0" text="Module#6" />
+      <TextField fx:id="lvl5mod1paper1" layoutX="22.0" layoutY="299.0" promptText="Enter ICT01 Marks" />
+      <TextField fx:id="lvl5mod1paper2" layoutX="246.0" layoutY="299.0" promptText="Enter ICT02 Marks" />
+      <TextField fx:id="lvl5mod2paper1" layoutX="22.0" layoutY="371.0" promptText="Enter ICT01 Marks" />
+      <TextField fx:id="lvl5mod2paper2" layoutX="246.0" layoutY="371.0" promptText="Enter ICT02 Marks" />
+      <TextField fx:id="lvl5mod3paper1" layoutX="22.0" layoutY="466.0" promptText="Enter ICT01 Marks" />
+      <TextField fx:id="lvl5mod3paper2" layoutX="246.0" layoutY="466.0" promptText="Enter ICT02 Marks" />
+      <TextField fx:id="lvl5mod4paper1" layoutX="22.0" layoutY="562.0" promptText="Enter ICT01 Marks" />
+      <TextField fx:id="lvl5mod4paper2" layoutX="246.0" layoutY="562.0" promptText="Enter ICT02 Marks" />
+      <TextField fx:id="lvl5mod5paper1" layoutX="22.0" layoutY="664.0" promptText="Enter ICT01 Marks" />
+      <TextField fx:id="lvl5mod5paper2" layoutX="246.0" layoutY="664.0" promptText="Enter ICT02 Marks" />
+      <TextField fx:id="lvl5mod6paper1" layoutX="22.0" layoutY="786.0" promptText="Enter ICT01 Marks" />
+      <TextField fx:id="lvl5mod6paper2" layoutX="246.0" layoutY="786.0" promptText="Enter ICT02 Marks" />
+      <Label fx:id="lvl5mod1marks" layoutX="484.0" layoutY="299.0" prefHeight="31.0" prefWidth="61.0" text="m" />
+      <Label fx:id="lvl5mod1result" layoutX="572.0" layoutY="299.0" prefHeight="31.0" prefWidth="61.0" />
+      <Label fx:id="lvl5mod2marks" layoutX="467.0" layoutY="366.0" prefHeight="31.0" prefWidth="61.0" />
+      <Label fx:id="lvl5mod2result" layoutX="574.0" layoutY="371.0" prefHeight="31.0" prefWidth="81.0" />
+      <Label fx:id="lvl5mod3marks" layoutX="467.0" layoutY="456.0" prefHeight="31.0" prefWidth="52.0" />
+      <Label fx:id="lvl5mod3result" layoutX="555.0" layoutY="456.0" prefHeight="31.0" prefWidth="52.0" />
+      <Label fx:id="lvl5mod4marks" layoutX="467.0" layoutY="549.0" prefHeight="31.0" prefWidth="52.0" />
+      <Label fx:id="lvl5mod4result" layoutX="559.0" layoutY="549.0" prefHeight="31.0" prefWidth="45.0" />
+      <Label fx:id="lvl5mod5marks" layoutX="467.0" layoutY="652.0" prefHeight="38.0" prefWidth="52.0" />
+      <Label fx:id="lvl5mod5result" layoutX="563.0" layoutY="652.0" prefHeight="38.0" prefWidth="52.0" />
+      <Label fx:id="lvl5mod6marks" layoutX="475.0" layoutY="774.0" prefHeight="38.0" prefWidth="61.0" />
+      <Label fx:id="lvl5mod6result" layoutX="574.0" layoutY="774.0" prefHeight="38.0" prefWidth="52.0" text="s" />
+      <Button layoutX="718.0" layoutY="629.0" mnemonicParsing="false" onAction="#calculateBtnClicked1" text="Calculate" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="900.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65">
+   <children>
+      <Button layoutX="664.0" layoutY="743.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="148.0" text="Submit">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <Label layoutX="243.0" layoutY="23.0" prefHeight="82.0" prefWidth="382.0" text="University of Gugsi" visible="false">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="135.0" prefHeight="57.0" prefWidth="233.0" text="Retake Students">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="239.0" text="Module#1" />
+      <Label layoutX="58.0" layoutY="316.0" text="Module#2" />
+      <Label layoutX="58.0" layoutY="405.0" text="Module#3" />
+      <TextField layoutX="71.0" layoutY="265.0" promptText="Enter ICT01 Marks" />
+      <TextField layoutX="320.0" layoutY="265.0" promptText="Enter ICT02 Marks" />
+      <TextField layoutX="71.0" layoutY="358.0" promptText="Enter ICT01 Marks" />
+      <TextField layoutX="320.0" layoutY="358.0" promptText="Enter ICT02 Marks" />
+      <TextField layoutX="71.0" layoutY="450.0" promptText="Enter ICT01 Marks" />
+      <TextField layoutX="320.0" layoutY="450.0" promptText="Enter ICT02 Marks" />
+      <Label layoutX="164.0" layoutY="30.0" prefHeight="82.0" prefWidth="498.0" text="University of Gugsi" textFill="#8d0000">
+         <font>
+            <Font name="Broadway" size="47.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
